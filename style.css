@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.home{
+    background-color: #3a3ace;
+    width: 100%;
+    height: 95vh;
+}
+.navber{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.navber-logo img{
+border-radius: 50%;
+margin-left: 10%;
+margin-top: 4%;
+}
+.navber-detelis{
+    margin-right: 10%;
+}
+.navber-detelis a{
+text-decoration: none;
+color: white;
+margin-left: 20px;
+font-weight: 700;
+position: relative;
+}
+.navber-detelis a::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -5px;
+    background-color: crimson;
+    width: 0%;
+    height: 2px;
+    transition: 0.5s;
+}
+.navber-detelis a:hover::after{
+    width: 100%;
+}
+.home-image{
+    background-image: url(/image-flight/295143045_144442761567515_1830804441969809933_n-removebg-preview.png);
+    width: 40%;
+    height: 60vh;
+    margin-top: -60px;
+    margin-left: 55%;
+}
+.home-text{
+    margin-top: -170px;
+    margin-left: 20px;
+}
+.home-text h1{
+font-size: 44px;
+color: white;
+font-weight: 700;
+text-transform: uppercase;
+padding-bottom: 20px;
+}
+.home-text p{
+    font-size: 25px;
+    color: wheat;
+}
+ 
+
+/* about  */
+
+.couse-image{
+    margin-top: 20px;
+    margin-left: 20px;
+    outline: 1px solid;
+    box-shadow: 3px 3px 14px rgb(255, 210, 210), -3px -3px 14px rgb(18, 18, 18);
+    width: 300px;
+    height: 320px;
+    position: relative;
+    transition: 3s ease;
+}
+.about-course{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+.digital{
+    font-size: 25px;
+    text-align: center;
+}
+.seo{
+    text-align: center;
+}
+.video{
+    text-align: center;
+}
+.couse-image:hover{
+transform: scale(1.1);
+}
+.Deteils {
+    width: 700px;
+    background-color: #3a3ace;
+    padding: 30px;
+    margin-top: 50px;
+    margin: 0px auto;
+    border-radius: 10px;
+
+}
+.Deteils h1{
+    text-align: center;
+}
+.Deteils p{
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+}
+.total-course{
+    margin-top: 30px;
+}
+.course-logo{
+    width:300px;
+    text-align: center;
+   box-shadow: 3px 3px 15px rgb(221, 216, 216), -3px -3px 15px black;
+   padding: 10px;
+   transition:0.4s ease;
+}
+.course-logo a{
+    text-decoration: none;
+    color: white;
+    background-color: #3a3ace;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.total-course{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+}
+.course-logo:hover{
+    transform: scale(1.1);
+}
+.fottar{
+    width: 100%;
+    height: 400px;
+    background-color: #3a3ace;
+    position: relative;
+    color: white;
+}
+.text-1{
+    position:absolute;
+    top: 50px;
+    left: 70%;
+}
+.text-1 h2{
+padding-bottom: 30px;
+}
+.text-1 p{
+    padding-bottom: 20px;
+}
+.text-2{
+    position: absolute;
+    top:50px;
+    left: 40%;
+}
+.text-2 h2{
+    padding-bottom: 30px;
+    }
+    .text-2 p{
+        padding-bottom: 20px;
+    }
+
+
+    .text-3{
+        position: absolute;
+        top:50px;
+        left: 10%;
+    }
+    .text-3 h2{
+        padding-bottom: 30px;
+        }
+        .text-3 p{
+            padding-bottom: 20px;
+        }
+        .text-4{
+            width: 400px;
+            text-align: justify;
+            font-size: 18px;
+            background-color: rgb(81, 79, 76);
+            position: absolute;
+            top: 300px;
+            padding: 20px;
+            border-radius: 10px;
+            left: 30%;
+        }
+
+
+

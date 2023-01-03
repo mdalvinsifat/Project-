@@ -1,0 +1,43 @@
+<!-- /* /* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} */
+body{
+ 
+    /* justify-content: center; */
+   
+    
+} 
+.container{
+    display: flex;
+}
+h1{
+    font-size: 14vh;
+    position: relative;
+    color: #7f97ff;
+    -webkit-text-stroke: 0.3vw #3a3cea;
+    text-transform: uppercase;
+ 
+}
+h1::before{
+    content: attr(data-text);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 0;
+    color: #3a3cea;
+    border-right: 3px solid #3a3cea;
+    overflow: hidden;
+    animation: scrrol linear 6s infinite;
+}
+@keyframes scrrol {
+    0%,10%,100%{
+width: 0%;
+    }
+    70%,90%{
+        width: 100%;
+    }
+} -->
